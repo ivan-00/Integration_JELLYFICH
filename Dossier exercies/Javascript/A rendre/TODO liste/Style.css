@@ -1,0 +1,86 @@
+* { margin: 0px;
+padding: 0;
+outline: none;
+list-style: none;
+box-sizing: border-box;
+font-family: roboto, sans-serif;
+}
+body{
+    padding: 0px 80px;
+    background: #F5F5F5;
+    position: relative;
+}
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 20px;
+}
+.recherche {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.fa-trash {
+    float: right;
+}
+input.input-to {
+    width: 100%;
+    border: 2px solid #cfe5d9 ;
+    border-right: none;
+    padding-left: 10px;
+}
+input.input-btn {
+    padding: 10px 5px;
+    width: 162px;
+    background: #EDECEC;
+    border: 2px solid #CFE5D9;
+    /* Font */
+    font-style: normal;
+    font-weight: normal;
+    color: #779484;
+    cursor: pointer;
+}
+input.input-btn:hover ,button.supp:hover {
+    background-color: #576b60;
+    color: #ecf5f0;
+    border-color: #31483b;
+    transition: all .2s;
+}
+li {
+    width: 100%;
+}
+.list {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.list li button {
+    float: right;
+    color: red;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.div-supp {
+    width: 100%;
+    display: flex;
+}
+.supp {
+margin-left: auto;
+margin-right: auto;
+
+background: #E5E5E5;
+border: 3px solid #779484;
+box-sizing: border-box;
+border-radius: 11px;
+cursor: pointer;
+padding: .3rem 1rem;
+color: #779484;
+}

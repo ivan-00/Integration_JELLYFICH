@@ -1,0 +1,24 @@
+Création d’un jeu plus petit ou plus grand avec JavaScript (pas de Jquery). La difficulté des étapes est croissante. Avec l’ensemble des cours les étapes de 1 à 4 devraient être faites sans trop de difficultés.
+
+Avec vos cours d’algo et les liens donnés, si vous arrivez à faire l’étape 5 vous devriez avancer jusqu’à l’étape 7. Le screen est un exemple d’intégration pour les étapes 8 et plus. J’attends des personnes qui arriveront jusqu’ici de faire preuve d’imagination avec leur propre proposition.
+
+1) Au chargement de la page, on va générer un nombre entier aléatoire entre 1 et 500 (C'est le nombre que va devoir deviner le joueur)
+2) On demande au joueur de rentrer un entier dans une boîte de dialogue.
+3) On indique au joueur via un popup si le nombre à trouver est plus petit ou plus grand. 
+4) On précise au joueur s’il est loin de trouver le nombre avec beaucoup plus petit / plus petit / un tout petit peu plus petit
+5) Tant qu'on n'a pas trouvé, on demande au joueur de rentrer un entier dans une boîte de dialogue
+6) Lorsque le joueur trouve le bon entier, ça affiche un popup célébrant sa victoire.
+7) Si le joueur n'a pas trouvé au bout de 10 tentatives, on affiche un message de défaite. 
+8) Création d’un bouton pour lancer la partie au lieu de lancer la partie au chargement de la page.
+9) Création de champs pour récupérer la plage du nombre à deviner
+10) Création de champs pour récupérer le nombre max de tentative
+11) On stock les tentatives dans une variable pour les afficher à la fin de la partie
+12) Au lieu d’utiliser les boîtes de dialogue, on crée un input pour que le joueur puisse saisir une valeur
+13) On affiche si le nombre est plus petit ou plus grand directement dans la page HTML et non dans une boîte de dialogue
+Liens utiles : 
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Number
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Math/random
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Math/floor
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/if...elseWhile
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/whileQuerySelector
+https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/do...while

@@ -1,0 +1,30 @@
+h1 {
+    color: rgb(202, 128, 140);
+    font-weight: bold;
+    font-size: 4rem;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+button {
+    padding: 1rem 5rem;
+    margin: 1rem;
+    border: none;
+    background-color: pink;
+    color: white;
+    font-size: 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    outline: none;
+}
+button:hover {
+    background-color: rgb(202, 128, 140);
+    cursor: pointer;
+}
+button:active {
+    background-color: rgb(221, 170, 178);
+}

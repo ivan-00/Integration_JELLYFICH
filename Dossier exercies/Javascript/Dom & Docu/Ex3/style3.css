@@ -1,0 +1,40 @@
+h1 {
+    color: rgb(202, 128, 140);
+    font-weight: bold;
+    font-size: 4rem;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+input {
+    border: 2px solid pink;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+input[type=button]{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: pink;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+input[type=text] {
+    padding-left: 9px;
+}
+input::placeholder {
+    color: pink;
+}
+ul {
+    margin: 20px 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+ul li {
+    font-size: 1.5rem;
+    margin: .5rem 0;
+}

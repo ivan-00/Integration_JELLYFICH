@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://use.fontawesome.com/c33d7d3aec.js"></script>
+
+<title>Formulaire</title>
+</head>
+<body>
+    <nav>
+            <input type="checkbox" id="check">
+            <img class="item-nav" src="img/nav-logo.png" alt="">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+        <ul class="navbar-nav">
+            <li><a  href="#">Formation</a></li>
+            <li><a href="#">Vie étudiante</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">01.76.36.10.07</a></li>
+        </ul> 
+    </nav>
+    <main>
+        <header class="header-pic">
+            <div class="blok-contact-us">
+                <p class="text-contact-us">CONTACTER-NOUS</p>
+                <p class="under-text-contact-us">L'équipe d'admission d'hHétic est disponible pour échanger avec vous sur votre projet d'orienation lors d'un rendez-vous d'admission à distance.</p>
+            </div>
+            <div class="div-vertical">
+                <p class="text-vertical">
+                    ECOLE DES METIERS DU WEB
+                </p>
+                <div class="bloc-img-logo">
+                    <div class="hide"></div>
+                    <img src="img/logo-hetic1.png" class="img-logo-hetic 1" alt="">
+                    <img src="img/logo-hetic2.png" class="img-logo-hetic 2" alt="">
+                </div>
+            </div>
+            <div class="footer">
+                <ul class="footer-icon">
+                    <li><a  class="fa fa-facebook"href="#"></a></li>
+                    <li><a class="fa fa-twitter" href="#"></a></li>
+                    <li><a class="fa fa-instagram" href="#"></a></li>
+                    <li><a class="fa fa-youtube" href="#"></a></li>
+                    <li><a class="fa fa-linkedin" href="#"></a></li>
+                    <li><a class="fa fa-vimeo" href="#"></a></li>
+                </ul>
+            </div>
+        </header>
+        <form action="" action="get">
+            <fieldset>
+                <h2 class="title-form" >Demander un rendez-vous </h2>
+                <div class="bloc-form">
+                    <div class="form pre" >
+                        <label for="prenom"></label>
+                        <input class="input-form" type="text" id="lastname" name="user-name" placeholder="Prénom *" required>
+                    </div>
+                    <div class="form nom" >
+                        <label for="nom"></label>
+                        <input class="input-form" type="text" id="name" name="name" placeholder="Nom *" required>
+                    </div>
+                    <div class="form num" >
+                        <label for="Number"></label>
+                        <input class="input-form" type="tel" id="phone" name="phone" placeholder="Numéro de téléphone"
+                        pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}">
+                    </div>
+                    <div class="form nam" >
+                        <label for="name-compagny"></label>
+                        <input class="input-form" type="text" id="name-compagny" placeholder="Société *" required>
+                    </div>
+                    <div class="form mai" >
+                        <label for="mail"></label>
+                        <input class="input-form" type="email" id="mail" name="email" placeholder="Adresse e-mail *" required >
+                    </div>
+                    <div class="form obj" >
+                        <label for="obejt"></label>
+                        <input class="input-form" type="text" id="obejt" name="obejt"
+                        placeholder="Objet *" required>
+                    </div>
+                    <div class="form mes" >
+                        <label for="message"></label>
+                        <textarea class="input-form message" name="message" id="message" placeholder="Message*" ></textarea>
+                    </div>
+                </div>
+                <div>
+                    <input type="checkbox" id="scales" name="scales" required checked>
+                    <label for="réglementation">Dans le cadre de la réglementation sur la protection des données, j'accepte d'étre contacté(e) par email et téléphones. </label>
+                </div>
+                <div class="place-btn">
+                    <button class="form-btn" type="submit">JE PRENDS RENDEZ-VOUS</button>
+                </div>
+            </fieldset>
+        </form>
+        <!-- <hr> -->
+    </main>
+    <footer>
+        <hr class="hr-footer">
+        <div class="in-ul-footer">
+            <div class="blok-footer">
+                <div class="section-copyright">
+                    <div class="cadre-img-footer">
+                    <a href="#"><img class="pic-item-footer" src="img/logo-hetic.png" alt=""></a>
+                    <p class=copyr-p><i class="fa fa-copyright" aria-hidden="true"></i> 2020, Tous droits résérvés</p>
+                    </div>
+                    <div class="bas-footer-cop">
+                        <div class="link-footer-1">
+                            <p>Grande Ecole </p>
+                            <p>Bachelor Développeur Web</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bloc-footer">
+                    <h3 class="h3-footer" >Liens Utiles</h3>
+                    <ul>
+                        <li><a href="#">Insertions</a></li>
+                        <li><a href="#">L'ecole</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="bloc-footer">
+                    <h3 class="h3-footer" >Formation</h3>
+                    <ul>
+                        <li><a href="#">Bachelor Webmarketing & UX</a></li>
+                        <li><a href="#" > Prépa Mastère Digital</a></li>
+                        <li><a href="#">Mastère Big Data & IA</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

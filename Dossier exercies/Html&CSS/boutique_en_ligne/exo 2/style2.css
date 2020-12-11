@@ -1,0 +1,131 @@
+@media (min-width: 481px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box {
+        width: 50%;
+    }
+}
+@media (min-width: 769px) {
+    .box {
+        width: 100%;
+    }
+    .box-2 {
+       /* display: none; */
+        opacity: 0;
+    }
+    .box-4, .box-3 {
+        transform: translateY(-200px);
+    }
+}
+@media (min-width: 967px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .box {
+        width: 50%;
+    }
+    .box-2 {
+        opacity: 1;
+       /* display: block; */
+    }
+    .box-four, .box-3 {
+        transform: translateY(0);
+    }
+}
+@media (min-width: 1200px) {
+    .box {
+        width: 100%;
+    }
+}
+
+.container-d {
+    display: flex;
+    flex-wrap: wrap;
+}
+h1 {
+    font-size: 30px;
+    align-self: center;
+}
+.box {
+    width: 50%;
+    height: 200px;
+    border: 5px solid yellow; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-1 {
+    background-color: olive;
+}
+.box-2 {
+    background-color: orangered;
+}
+.box-3 {
+    background-color: peachpuff;
+}
+.box-4 {
+    background-color: red;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 50%;
+    height: 200px;
+    border: 5px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 1s;
+}
+
+.box-one {
+    background-color: red;
+    z-index: 2;
+}
+
+.box-2 {
+    background-color: green;
+    z-index: 2;
+}
+
+.box-3 {
+    background-color: blue;
+}
+
+.box-four {
+    background-color: black;
+}
+
+p {
+    font-size: 30px;
+    align-self: flex-start;
+}
+
+
+
+
+/* 
+En mobile (jusqu'à 480px): aligné en hauteur toute la largeur tous visible 
+En tablette  (jusqu'à 768px): sur 2 ligne sur toute la largeur
+En desktop  (jusqu'à 967px): le vert disparait / sur toute la largeur 
+En large Desktop  (jusqu'à 1200px): Tous visible en hauteur sur la moitier de l'écran 
+*/
+

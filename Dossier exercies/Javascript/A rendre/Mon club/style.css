@@ -1,0 +1,124 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: roboto, sans-sherif;
+    color: white;
+}
+body {
+}
+.header { 
+    background-color: #2c3e50;
+    color: white;
+    font-size: 1.5rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+h1 {
+    font-size: 1.5rem;
+}
+form {
+    background-color:#16a085;
+    padding: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.input-age {
+    font-size: 1.2rem;
+}
+.age {
+    margin-bottom: 16px;
+}
+.img-header {
+    width: 50%;
+    height: 220px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.img {
+    width: 100%;
+    margin-top: -37px;
+}
+.div-form {
+    width: 50%;
+    height: 150px;
+    background-color: #9b59b6;
+    padding: 2rem;
+}
+.age , .anne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label.input-anne , .input-age {
+    font-size: 10px;
+    text-align: start;
+    margin-right: 10px;
+}
+input#add-anne , input#add-age {
+    color: #f39c12;
+    height: 10px;
+
+}
+.button {
+    background-color: #c0392b;
+    border: solid 2px #3498db;
+    color : #f39c12
+}
+.ul-div {
+    margin-top: 20px;
+    background-color: #34495e;
+    padding: .2rem;
+}
+.cat {
+    font-size: 1.5;
+}
+
+// Class type
+.poussin {
+    color: yellow;
+    padding: .2rem;
+
+}
+.pupille {
+    color: yellow;
+    padding: .2rem;
+
+}
+.minim {
+    color: magenta;
+    padding: .2rem;
+
+}
+.cadet {
+    color: lawngreen; 
+    padding: .2rem;
+
+}
+.error {
+    color : red; 
+    padding: .2rem;
+
+}
+
+
