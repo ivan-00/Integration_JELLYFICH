@@ -70,7 +70,7 @@ nav {
     width: 400px;
     height: 241px;
     margin-left: 100px;
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 .header_h1 {
     display: flex;
@@ -221,17 +221,31 @@ section.section_1 {
 }
 /* Smartphone */
 @media (min-width: 370px) and (max-width: 768px) {
-    
+    /* Header */
+    overflow: hidden;
+    header {
+        width: 100%;
+        display:flex;
+        flex-wrap: wrap;
+        padding: 10px 10px;
+    }
+    .bloc_header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header_gauche {
+        margin-left: 0;
+    }
 }
 /* Tablet */
 @media (min-width: 769px) and (max-width: 1105px) {
-    
+
 }
 /* Desktop */
 @media (min-width: 1106px) and (max-width: 2000px) {
-    
+
 }
 /* Large desktop */
 @media (min-width: 2001px) and (max-width: 2441px) {
-    
+
 }
