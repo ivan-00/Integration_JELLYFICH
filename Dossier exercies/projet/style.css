@@ -70,7 +70,7 @@ nav {
     width: 400px;
     height: 241px;
     margin-left: 100px;
-    /* margin-top: 150px; */
+    margin-top: 150px;
 }
 .header_h1 {
     display: flex;
@@ -227,7 +227,7 @@ section.section_1 {
         width: 100%;
         display:flex;
         flex-wrap: wrap;
-        padding: 10px 10px;
+        padding: 10px 30px;
     }
     .bloc_header {
         display: flex;
@@ -235,6 +235,7 @@ section.section_1 {
     }
     .header_gauche {
         margin-left: 0;
+        padding: ;
     }
 }
 /* Tablet */
