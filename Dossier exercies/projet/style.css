@@ -35,7 +35,8 @@ ol, ul {
     --BG_gray: #F9F9FD;
     --BG_clear_bleu: #315996; 
         /* Color */
-    --Purpul:  #8686B3;
+    --Purpul: #8686B3;
+    --Text_bleu: #454658;
 }
 /* Header */
 header {
@@ -142,6 +143,18 @@ section.section_1 {
 .h2_section_1 {
     text-align: center;
     margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 110%;
+    color: var(--Text_bleu);
+}
+.p_section_1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    color: var(--Text_bleu);
 }
 .bloc_img_2 {
     width: 100%;
@@ -150,4 +163,10 @@ section.section_1 {
 }
 .img_section {
     margin-left: center;
+}
+/* Section _2 */
+.section_2 {
+    background-color: var(--BG_clear_bleu);
+    width: 100%;
+    padding: 10px 30px;
 }
