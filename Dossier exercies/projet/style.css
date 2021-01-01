@@ -125,16 +125,15 @@ button.btn_github {
 }
 
 /* How does it work  */
-    // Section 1
-.section_1 {
-    margin-top: 90px;
+section.section_1 {
+    margin-top: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .bloc-section_1 {
     width: 800px;
-    margin-top: 100px;
+    margin-top: 60px;
 
 }
 .bloc_img_2 {
@@ -142,4 +141,13 @@ button.btn_github {
 }
 .h2_section_1 {
     text-align: center;
+    margin-bottom: 10px;
+}
+.bloc_img_2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img_section {
+    margin-left: center;
 }
