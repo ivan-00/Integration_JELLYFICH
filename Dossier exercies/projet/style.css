@@ -220,22 +220,23 @@ section.section_1 {
     width: 62%;
 }
 /* Smartphone */
-@media (min-width: 370px) and (max-width: 768px) {
+@media (min-width: 370px) and (max-width: 812px) {
     /* Header */
-    overflow: hidden;
     header {
         width: 100%;
         display:flex;
         flex-wrap: wrap;
         padding: 10px 30px;
+        overflow: hidden;
     }
     .bloc_header {
         display: flex;
         flex-wrap: wrap;
     }
     .header_gauche {
-        margin-left: 0;
-        padding: ;
+    }
+    .header_img {
+        
     }
 }
 /* Tablet */
