@@ -169,20 +169,43 @@ section.section_1 {
 /* Section _2 */
 .section_2 {
     background-color: var(--BG_clear_bleu);
-    width: 100%;
-    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
 }
-/* section_3 */
+.bloc_section_2_h3 {
+    width: 100%;
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.section_2 h3 {
+    text-align: center;
+}
+.section_2_buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section_2_buttons button {
+    background-color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.section_2_buttons button:not(:last-child) {
+    margin-right: 10px;
+}    
+    /* section_3 */
 .section_3 {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding: 50px 100px;
     justify-content: space-between;
 }
 .article_section_3 {
     width: 40%;
     position: relative;
-    /* height: 220px; */
 }
 .article_section_3 p {
     font-weight: 300;
@@ -303,7 +326,7 @@ section.section_1 {
     }
     /* Section 2 */
     .section_2 {
-        padding: 0;
+        /* padding: 0; */
     }
     /* Section 3 */
     .section_3 {
@@ -329,6 +352,9 @@ section.section_1 {
     }
     .img_section_3 {
         width: 95%;
+    }
+    .btn_github i  {
+        display: none;
     }
 }
 /* Tablet */
