@@ -12,7 +12,7 @@ btn.addEventListener('click', function (a) {
 
   fetch('https://swapi.dev/api/people/' + entier).then(function (response) {
     return response.json();
-  }).then(function (data) {
+  }).then(function (response) {
     return window.alert(data.name + ' ' + data.height + ' ' + data.birth_year + ' ' + data.eye_color);
   }); // var perso = {
   //     Nom: (data.name),

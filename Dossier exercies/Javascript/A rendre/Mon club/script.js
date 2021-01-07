@@ -43,28 +43,4 @@ add.addEventListener ('click' ,(a) => {
         }
 
     }
-    //  else {
-    //     if (fin_age >= 6 && fin_age <= 7 ){
-    //         type.textContent = "Bravo tu as " + fin_age + " ans tu es donc un Poussin";
-    //         type.classList.add("Poussin");
-    //     } else if (fin_age >= 8 &&  fin_age <= 9 ){
-    //         type.textContent = "Bravo tu as " + fin_age + " ans. Tu es donc un Pupille";
-    //         type.classList.add("pupille");
-    //     } else if (fin_age >= 10 &&  fin_age < 12 ){
-    //         type.textContent = "Bravo tu as " + fin_age + " ans. Tu es donc un Minim";
-    //         type.classList.add("minim");
-    //     } else if (fin_age >= 12 &&  fin_age <= 17){
-    //         type.textContent = "Bravo tu as " + fin_age + " ans. Tu es donc un Cadet";
-    //         type.classList.add("cadet");
-    //     } else if (fin_age < 7 || fin_age >= 18 ){
-    //         type.textContent = "Vous n'avez pas l'age desolé";
-    //     }
-    //     console.log(fin_age);
-    // }
 })
-
-
-// else if (age.value > 5 || age.value > 7){
-//     type.textContent = "Veuillez entrer un age compris entre 6 ans et 17 ans"
-//     type.classList.add ("error");
-// }

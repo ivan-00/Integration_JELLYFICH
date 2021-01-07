@@ -11,7 +11,7 @@ btn.addEventListener('click', (a) =>{
     // Recuperation de donné
     fetch('https://swapi.dev/api/people/'+entier)
     .then (response => response.json())
-    .then(data => window.alert (data.name + ' ' + data.height + ' ' +  data. birth_year +' ' + data.eye_color));
+    .then(response => window.alert (data.name + ' ' + data.height + ' ' +  data. birth_year +' ' + data.eye_color));
     // var perso = {
     //     Nom: (data.name),
     //     Taille:(data.height),
