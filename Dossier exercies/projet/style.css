@@ -310,7 +310,7 @@ section.section_1 {
         width: 100%;
     }
     .footer-section {
-        width: 30%;
+        width: 29%;
         padding: 0px 30px;
         text-align: center;
         /* overflow: hidden; */
@@ -437,6 +437,9 @@ section.section_1 {
     .img_header {
         margin-top: 0px;
         padding-top: 40px;
+        left: 0;
+        min-width: 290px;
+        max-width: 400px;
     }
     /* Section 1  */
     .section_1 {
@@ -459,6 +462,7 @@ section.section_1 {
     /* Section 2 */
     .section_2_buttons button {
         padding: 10px 20px;
+        height: 80px;
     }
     .section_2_buttons button:not(:last-child) {
         margin-right: 10px;
