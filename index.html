@@ -64,12 +64,21 @@
           d="M17.604 3.332c-4.614 0.668-5.529-0.499-7.604-2.332-2.075 1.833-2.99 3-7.604 2.332-2.459 12.248 7.604 15.668 7.604 15.668s10.063-3.42 7.604-15.668zM12.473 13.309l-2.473-1.3-2.472 1.3 0.472-2.753-2-1.95 2.764-0.401 1.236-2.505 1.236 2.505 2.764 0.401-2 1.949 0.473 2.754z"
         ></path>
       </symbol>
+      <symbol id="icon-menu" viewBox="0 0 24 24">
+        <path
+          d="M3 13h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 7h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1zM3 19h18c0.552 0 1-0.448 1-1s-0.448-1-1-1h-18c-0.552 0-1 0.448-1 1s0.448 1 1 1z"
+        ></path>
+      </symbol>
     </svg>
     <title>JellyFish</title>
   </head>
   <body>
     <header>
       <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg>
+        </label>
         <div class="nav-item"><h1>JELLYFISH CONCEPT</h1></div>
         <div class="nav-list">
           <ul>
@@ -87,7 +96,7 @@
             <li><a href="#">QUI SOMMES NOUS ?</a></li>
           </ul>
         </div>
-        <div>
+        <div class="bloc_panier_compte">
           <a href="#">
             <svg class="icon icon-cart">
               <use xlink:href="#icon-cart"></use>
@@ -118,7 +127,7 @@
           </div>
         </article>
       </section>
-      <section>
+      <section class="best_product">
         <h4>NOS MEILLEURS PRODUITS</h4>
         <a href="#">TOUT VOIR...</a>
         <div>
