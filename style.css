@@ -43,9 +43,67 @@ section {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  font-family: "Oswald", sans-serif;
   vertical-align: baseline;
-  font-style: none;
   text-decoration: none;
-  font-style: Oswald, sans-sherif;
+  list-style: none;
+}
+/* Nav */
+nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+}
+nav .nav-list {
+  display: none;
+}
+nav .nav-list ul {
+  display: flex;
+}
+/* Main  */
+/* Section 1 */
+.background-section-1 {
+  background-image: url(img/section-bg-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 650px;
+  display: flex;
+  align-items: center;
+}
+.section_1_article {
+  width: 100%;
+  height: 280px;
+  background: #ffffffaf 0% 0% no-repeat padding-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 25px;
+}
+.section_1_article h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  margin-top: 29px;
+}
+.section_1_article p {
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  top: 83px;
+}
+.section_1_article_group_butn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.section_1_article_group_butn a {
+  display: block;
+  background-color: black;
+  color: white;
+  width: 105px;
+  height: 50px;
+  text-align: center;
 }
