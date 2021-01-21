@@ -56,7 +56,6 @@ nav {
 .navbar-nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin-left: auto;
   position: fixed;
   width: 100%;
@@ -177,7 +176,70 @@ a:hover {
 .best_product {
   font-size: 26px;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px;
 }
-
-ul.navbar-nav {
+.best_product h4 {
+  font-size: 26px;
+  font-weight: 200;
+  width: 100%;
+  text-align: left;
+}
+.best_product .link-article {
+  font-size: 8px;
+  font-weight: 300;
+  color: black;
+  text-decoration-line: underline;
+}
+.best_product a:hover {
+  font-weight: 400;
+}
+/* Article  */
+.best_product article {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* le cadre des articles */
+.best_product .int-article {
+  display: flex;
+}
+/* le cadre des articles */
+.int-article {
+  position: relative;
+  height: 140px;
+  width: 100%;
+}
+.img-article {
+  background-image: url(img/article_4.png);
+  width: 148px;
+  height: 141px;
+  background-size: cover;
+}
+.etiquette_article {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  font-size: 6px;
+  width: auto;
+  height: 14px;
+  text-align: center;
+  left: 0;
+  bottom: 13px;
+}
+.bloc_title_article {
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 12px;
+}
+.title_article {
+  font-size: 12px;
+  width: 100%;
+  text-align: left;
+}
+.details_title_article {
+  font-size: 8px;
 }
