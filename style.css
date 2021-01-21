@@ -199,9 +199,13 @@ a:hover {
 .bloc_article {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 .bloc_article article {
   width: 50%;
+}
+.bloc_article article {
+  margin-bottom: 20px;
 }
 /* le cadre des articles */
 .int-article {
@@ -211,9 +215,8 @@ a:hover {
   width: 100%;
 }
 /* le cadre des articles */
-
 .img-article {
-  background-image: url(img/article_4.png);
+  background-image: url(img/mob/article_4.png);
   width: 148px;
   height: 141px;
   background-size: cover;
@@ -252,4 +255,23 @@ a:hover {
   font-weight: 100;
   text-align: left;
   width: 145px;
+}
+/* carousel */
+.section_carousel {
+  position: relative;
+}
+.section_carousel p {
+  top: 28px;
+  width: 175px;
+  position: relative;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.596);
+  padding: 20px 15px;
+  margin: 0 auto;
+  font-size: 17px;
+  font-weight: 500;
+}
+.carousel-cell {
+  width: 100%;
+  height: 300px;
 }
