@@ -51,55 +51,78 @@ section {
 }
 /* Nav */
 nav {
-  position: absolute;
   display: flex;
-  background-color: black;
-  color: white;
-  padding: 15px 5px;
-  align-items: center;
-  width: 100%;
-  top: 0px;
-}
-.checkbtn {
-  display: block;
 }
 .navbar-nav {
-  display: none;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  position: fixed;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.912);
-  right: 0;
+  background-color: rgba(0, 0, 0, 0.685);
+  /* // hauteur de la Nav */
+  top: 66px;
   text-align: center;
-  transition: all.5s;
-  z-index: 9;
-  margin-top: 100px;
+  left: -100%;
+  transition: all 0.5s;
 }
 nav ul li {
   display: block;
-  margin: 50px 0;
   line-height: 30px;
   color: white;
+  display: block;
+  list-style: none;
+  text-align: center;
+  width: 100px;
+}
+.navbar-nav li a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+}
+.navbar-nav li a.active,
+a:hover {
+  transition: 0.5s;
+  text-decoration: solid;
+}
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  margin-left: 10px;
+  cursor: pointer;
+  display: block;
+}
+
+#check {
+  display: none;
+}
+#check:checked ~ ul {
+  right: 0;
+}
+.navbar-nav li ul li {
+  display: none;
+}
+.navbar-nav li:hover ul li {
+  display: flex;
+  flex-direction: column;
 }
 .icon-menu {
   margin-right: 15px;
 }
-nav .nav-list {
-  display: ;
-}
-nav .nav-list ul {
-}
 .bloc_panier_compte {
-  margin-left: 30px;
+  margin-left: auto;
 }
 .bloc_panier_compte a {
-  color: white;
+  color: black;
 }
 .bloc_panier_compte a::after {
   content: " ";
   width: 0px;
   height: 17px;
-  border: 1px solid #ffffff;
+  border: 1px solid black;
   margin: 6px;
 }
 /* Main  */
@@ -141,7 +164,9 @@ nav .nav-list ul {
   justify-content: space-between;
 }
 .section_1_article_group_butn a {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: black;
   color: white;
   width: 105px;
@@ -152,4 +177,7 @@ nav .nav-list ul {
 .best_product {
   font-size: 26px;
   text-align: center;
+}
+
+ul.navbar-nav {
 }
