@@ -128,7 +128,7 @@ a:hover {
 /* Section 1 */
 .background-section-1 {
   background-image: url(img/section-bg-1.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   height: 650px;
