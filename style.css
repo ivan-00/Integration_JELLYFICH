@@ -259,6 +259,7 @@ a:hover {
 /* carousel */
 .section_carousel {
   position: relative;
+  overflow: hidden;
 }
 .section_carousel p {
   top: 28px;
