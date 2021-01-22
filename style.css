@@ -265,11 +265,28 @@ ol.flickity-page-dots .dot {
 }
 /*  customers opinion*/
 .customers_opinion {
+  padding: 0 10px;
 }
 .bloc_customers_opinion {
   display: flex;
   align-items: baseline;
   margin-top: 20px;
+}
+.customers_opinion article {
+  width: 50%;
+}
+.section_customers_opinion {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.section_customers_opinion article {
+  margin-bottom: 20px;
+}
+.section_customers_opinion blockquote {
+  font-size: 12px;
+  padding: 0 12px;
+  text-align: justify;
 }
 .bloc_customers_opinion h4 {
   font-size: 21px;
@@ -292,3 +309,16 @@ ol.flickity-page-dots .dot {
   color: black;
   text-decoration-line: underline;
 }
+.article_customers_opinion-bloc_title {
+  display: flex;
+}
+.article_customers_opinion-bloc_title img {
+  margin-right: 15px;
+  width: 45px;
+  height: 45px;
+}
+.article_customers_opinion-bloc_title time {
+  font-size: 9px;
+  top: 6px;
+}
+/*  */
