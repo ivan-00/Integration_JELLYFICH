@@ -102,7 +102,7 @@ a:hover {
   margin-left: auto;
 }
 .bloc_panier_compte a svg {
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .bloc_panier_compte a::after {
@@ -125,11 +125,10 @@ a:hover {
 }
 .section_1_article {
   width: 100%;
-  height: 280px;
   background: #ffffffaf 0% 0% no-repeat padding-box;
   display: flex;
   flex-wrap: wrap;
-  padding: 0px 25px;
+  padding: 0 20px 20px 20px;
 }
 .section_1_article h2 {
   width: 100%;
@@ -149,6 +148,7 @@ a:hover {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  margin-top: 20px;
 }
 .section_1_article_group_butn a {
   display: flex;
@@ -315,7 +315,6 @@ ol.flickity-page-dots .dot {
   margin: 0 5px 0 15px;
   font-size: 25px;
 }
-
 .bloc_customers_opinion p span {
   font-size: 22px;
   font-weight: 500;
@@ -338,6 +337,9 @@ ol.flickity-page-dots .dot {
 .article_customers_opinion-bloc_title time {
   font-size: 9px;
   top: 6px;
+}
+.bloc_etoile svg {
+  font-size: 12px;
 }
 /* section livraison */
 .section_livraison {
