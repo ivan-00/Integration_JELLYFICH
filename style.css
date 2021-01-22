@@ -355,6 +355,7 @@ footer {
   width: 100%;
   position: relative;
   overflow: hidden;
+  padding: 20px 10px 10px 10px;
 }
 .footer_background_1,
 .footer_background_2 {
@@ -367,6 +368,7 @@ footer {
   height: 122px;
   left: -85px;
   top: 10px;
+  opacity: 60%;
 }
 .footer_background_1 {
   background-image: url(img/mob/footer_2.png);
@@ -381,3 +383,85 @@ footer h1 {
   font-weight: bold;
   text-align: center;
 }
+.block_footer_title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.block_footer_title h1 {
+  width: 100%;
+}
+.block_footer_title a {
+  color: black;
+  display: block;
+  background-color: white;
+  padding: 3px 5px 0 5px;
+  border-radius: 5px;
+}
+.bloc_newsleter {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bloc_newsletter h6 {
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+}
+.bloc_newsleter p {
+  font-size: 14px;
+  font-weight: 200;
+}
+/* footer form */
+form {
+  width: 300px;
+  border: solid white;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+  margin: 15px auto 15px auto;
+}
+form input {
+  background-color: pink;
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+}
+form input:first-child {
+  background-color: white;
+  color: black;
+}
+form input:first-child::placeholder {
+  font-size: 12px;
+  color: #00000077;
+}
+form input:last-child {
+  background-color: black;
+  color: white;
+}
+.form_text-newsleter {
+  font-size: 12px;
+  font-weight: 200;
+}
+/* footer link */
+.bloc_footer_link {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.bloc_footer_link h5 {
+  font-size: 13px;
+  font-weight: 600;
+}
+.bloc_footer_link ul a {
+  font-size: 11px;
+  color: white;
+}
+.footer_list_link {
+  width: 60%;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+.footer_list_link:not(:last-child) {
+  margin-right: 5px;
+}
+/* card-img */
