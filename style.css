@@ -24,9 +24,12 @@ body main {
 }
 /* Nav */
 nav {
+  position: fixed;
   display: flex;
   background-color: black;
   color: white;
+  overflow: hidden;
+  z-index: 1000;
 }
 nav a {
   color: white;
@@ -465,3 +468,16 @@ form input:last-child {
   margin-right: 5px;
 }
 /* card-img */
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: auto;
+}
+.footer-card-copyright {
+  display: flex;
+}
+.footer-card-copyright p {
+  font-size: 9px;
+  margin-left: 6pxs;
+}
