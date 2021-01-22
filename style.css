@@ -19,7 +19,7 @@
   list-style: none;
   box-sizing: border-box;
 }
-main {
+body main {
   overflow: hidden;
 }
 /* Nav */
@@ -37,14 +37,15 @@ nav a {
   flex-direction: column;
   margin-left: auto;
   position: fixed;
-  /* width: 100%; */
   height: 100vh;
+  width: 300px;
   background-color: rgba(0, 0, 0, 0.685);
   /* // hauteur de la Nav */
-  top: 66px;
+  top: 48px;
   text-align: center;
   left: -100%;
   transition: all 0.5s;
+  z-index: 99;
 }
 nav ul li {
   display: block;
@@ -52,7 +53,8 @@ nav ul li {
   color: white;
   display: block;
   list-style: none;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 100px;
 }
 .navbar-nav li a {
@@ -78,7 +80,7 @@ a:hover {
   display: none;
 }
 #check:checked ~ ul {
-  right: 0;
+  left: 0;
 }
 .navbar-nav li ul li {
   display: none;
