@@ -28,8 +28,8 @@ nav {
   display: flex;
   background-color: black;
   color: white;
-  overflow: hidden;
   z-index: 1000;
+  width: 100%;
 }
 nav a {
   color: white;
