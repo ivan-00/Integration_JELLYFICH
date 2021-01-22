@@ -557,12 +557,21 @@ form input:last-child {
     height: 100vh;
     position: relative;
   }
+  /* top article  */
   .section_1_article {
     width: 400px;
     position: absolute;
     top: 90px;
     left: 30px;
   }
+  /* carousel */
+  .section_carousel {
+    height: auto;
+  }
+  .carousel-cell img {
+    object-fit: cover;
+  }
+  /*  avis clients*/
   .bloc_article {
     padding: 0 50px;
   }
@@ -618,9 +627,14 @@ form input:last-child {
   form input {
     padding: 0px;
   }
-
+  .form_text-newsleter {
+    font-size: 14px;
+    font-weight: 300;
+    word-spacing: 4px;
+  }
   form input:first-child::placeholder {
     text-align: center;
+    font-size: 0.8rem;
   }
 
   /* link */
@@ -629,5 +643,13 @@ form input:last-child {
   }
   .footer-card {
     width: 100%;
+  }
+}
+@media screen and (min-width: 800px) {
+  nav {
+    height: 88px;
+  }
+  nav label {
+    display: none;
   }
 }
