@@ -30,11 +30,14 @@ nav {
   color: white;
   z-index: 1000;
   width: 100%;
+  align-items: center;
+}
+.nav-item h1 {
+  font-size: 13px;
 }
 nav a {
   color: white;
 }
-
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -44,7 +47,7 @@ nav a {
   width: 300px;
   background-color: rgba(0, 0, 0, 0.685);
   /* // hauteur de la Nav */
-  top: 48px;
+  top: 45px;
   text-align: center;
   left: -100%;
   transition: all 0.5s;
