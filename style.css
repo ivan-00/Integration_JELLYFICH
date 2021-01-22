@@ -324,4 +324,16 @@ ol.flickity-page-dots .dot {
   font-size: 9px;
   top: 6px;
 }
-/*  */
+/* section livraison */
+.section_livraison {
+  background-image: url(img/mob/img_livraison.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section_livraison p {
+  background: #000000aa 0% 0% no-repeat padding-box;
+  padding: 70px 20px;
+  color: white;
+  font-size: 13px;
+  height: 500px;
+}
