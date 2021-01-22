@@ -8,37 +8,7 @@
   fill: currentColor;
 }
 /* Reset css */
-html,
-body,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-a,
-var,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-tr,
-th,
-td,
-article,
-aside,
-figure,
-figcaption,
-footer,
-header,
-nav,
-output,
-section {
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -259,7 +229,7 @@ a:hover {
 /* carousel */
 .section_carousel {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .section_carousel p {
   top: 28px;
@@ -275,4 +245,20 @@ a:hover {
 .carousel-cell {
   width: 100%;
   height: 300px;
+  background-color: pink;
 }
+.carousel-cell img {
+  width: 100%;
+  height: 300px;
+}
+/* button carousel */
+ol.flickity-page-dots {
+  bottom: 10px;
+}
+ol.flickity-page-dots .dot {
+  background-color: white;
+}
+.carousel button {
+  display: none;
+}
+/*  */
