@@ -25,7 +25,13 @@ main {
 /* Nav */
 nav {
   display: flex;
+  background-color: black;
+  color: white;
 }
+nav a {
+  color: white;
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -62,7 +68,7 @@ a:hover {
 }
 .checkbtn {
   font-size: 30px;
-  color: black;
+  color: white;
   margin-left: 10px;
   cursor: pointer;
   display: block;
@@ -87,14 +93,15 @@ a:hover {
 .bloc_panier_compte {
   margin-left: auto;
 }
-.bloc_panier_compte a {
-  color: black;
+.bloc_panier_compte a svg {
+  font-size: 20px;
 }
+
 .bloc_panier_compte a::after {
   content: " ";
   width: 0px;
   height: 17px;
-  border: 1px solid black;
+  border: 1px solid white;
   margin: 6px;
 }
 /* Main  */
@@ -331,9 +338,12 @@ ol.flickity-page-dots .dot {
   background-repeat: no-repeat;
 }
 .section_livraison p {
-  background: #000000aa 0% 0% no-repeat padding-box;
+  background: #000000c7 0% 0% no-repeat padding-box;
   padding: 70px 20px;
   color: white;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
   height: 500px;
 }
+/* footer */
