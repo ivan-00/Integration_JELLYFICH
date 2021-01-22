@@ -189,19 +189,17 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
-  align-content: center;
+  justify-content: space-between;
 }
 .bloc_article article {
-  width: 50%;
   margin-bottom: 20px;
-  text-align: center;
 }
 /* le cadre des articles */
 .int-article {
   position: relative;
   display: flex;
   height: 140px;
-  width: 100%;
+  /* width: 100%; */
 }
 /* le cadre des articles */
 .img-article {
