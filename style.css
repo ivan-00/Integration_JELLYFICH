@@ -199,7 +199,6 @@ a:hover {
   position: relative;
   display: flex;
   height: 140px;
-  /* width: 100%; */
 }
 /* le cadre des articles */
 .img-article {
@@ -485,4 +484,32 @@ form input:last-child {
 .footer-card-copyright p {
   font-size: 9px;
   margin-left: 6pxs;
+}
+/* MEDIA QUIERIES */
+@media screen and (min-width: 375px) {
+  /* Nav */
+  .bloc_panier_compte {
+    margin-right: 10px;
+  }
+  .section_1_article p {
+    text-align: justify;
+  }
+  .section_1_article_group_butn {
+    padding: 0 20px;
+    max-width: 350px;
+  }
+  .bloc_article {
+    padding: 0 20px;
+  }
+}
+@media screen and (min-width: 507px) {
+  .section_1_article {
+    justify-content: center;
+  }
+  .bloc_article {
+    padding: 0 40px;
+  }
+  .bloc_article article {
+    margin-right: 8px;
+  }
 }
