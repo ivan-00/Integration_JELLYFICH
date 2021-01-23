@@ -717,10 +717,7 @@ form input:last-child {
     /* display: block; */
   }
   .navbar-nav :hover .drop_down_menu li {
-    display: block;
-    margin-top: 220px;
-    background-color: pink;
-    color: white;
+    display: none;
   }
 
   .bloc_panier_compte {
