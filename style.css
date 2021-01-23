@@ -58,7 +58,6 @@ nav ul li {
   display: block;
   line-height: 30px;
   color: white;
-  display: block;
   list-style: none;
   margin-left: auto;
   margin-right: auto;
@@ -688,6 +687,12 @@ form input:last-child {
   nav ul li {
     width: auto;
   }
+  .navbar-nav .item_svg a::after {
+    content: url(img/nav/arrow-down.svg);
+    margin-left: 10px;
+    margin-bottom: 4px;
+  }
+
   nav label {
     display: none !important;
   }
@@ -705,8 +710,50 @@ form input:last-child {
     width: auto;
     margin: 0;
     top: auto;
+    align-items: center;
   }
+  /* menu deroulant */
+  .drop_down_menu {
+    /* display: block; */
+  }
+  .navbar-nav :hover .drop_down_menu li {
+    display: block;
+    margin-top: 220px;
+    background-color: pink;
+    color: white;
+  }
+
   .bloc_panier_compte {
     margin: 0;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .nav-item h1 {
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+  }
+
+  .navbar-nav li {
+    margin-right: 5px;
+  }
+  /* Bloc article */
+  .bloc_article {
+    width: 80%;
+  }
+  /* section opinion */
+  .section_customers_opinion {
+    margin-bottom: 30px;
+  }
+  /* footer */
+  footer {
+    padding: 20px 30px 0 30px;
+    justify-content: space-around;
+  }
+  .bloc_news-form {
+    width: 30%;
+  }
+  .bloc_form p {
+    font-size: 9px;
   }
 }
