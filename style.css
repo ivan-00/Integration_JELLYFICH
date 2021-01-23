@@ -486,7 +486,7 @@ form input:last-child {
 }
 .footer-card-copyright p {
   font-size: 9px;
-  margin-left: 6pxs;
+  margin-left: 6px;
 }
 /* MEDIA QUIERIES */
 @media screen and (min-width: 375px) {
@@ -697,7 +697,6 @@ form input:last-child {
     display: none !important;
   }
   nav ul {
-    background-color: none;
   }
   .navbar-nav {
     flex-direction: row;
